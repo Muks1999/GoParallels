@@ -1,0 +1,49 @@
+.wrapper {
+    margin-top: 3.5em;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    position: relative
+}
+.fixed {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    color: #eeeeee;
+    text-align: center;
+    display: table;
+}
+.fixed h2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll {
+    background-color: #46237a;
+    // opacity: 0.5; 
+    // transition: background-color 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 10px 70px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    // top: 0;
+    // left: 0;
+    position: absolute;
+}
+.one {
+    background-image: url("https://images.unsplash.com/photo-1549517045-bc93de075e53?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFtaWx5JTIwaG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    opacity: 0.7;
+}
+.two {
+    background-image: url("https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg");
+    opacity: 0.7;
+}
+.three {
+    background-image: url("https://foyr.com/learn/wp-content/uploads/2021/08/design-your-dream-home.jpg");
+    opacity: 0.7;
+}
